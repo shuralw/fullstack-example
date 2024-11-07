@@ -18,4 +18,5 @@ API
 
 Pagination
 - 
-  
+
+Application Insights, alternativ Datadog oder so was, ggf. auch ELK Stack: Elasticsearch + Logstash + Kibana und ggf. Opentelemetry

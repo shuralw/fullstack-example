@@ -20,3 +20,7 @@ Pagination
 - 
 
 Application Insights, alternativ Datadog oder so was, ggf. auch ELK Stack: Elasticsearch + Logstash + Kibana und ggf. Opentelemetry
+
+
+Architektur:
+- Mappers, wenn man bspw. eine Bewerbung Bewerbung reingibt, will man die auch zu ner ChatNachricht konvertieren können fürs create / bzw. eine Factory

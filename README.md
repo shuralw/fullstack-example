@@ -24,3 +24,5 @@ Application Insights, alternativ Datadog oder so was, ggf. auch ELK Stack: Elast
 
 Architektur:
 - Mappers, wenn man bspw. eine Bewerbung Bewerbung reingibt, will man die auch zu ner ChatNachricht konvertieren können fürs create / bzw. eine Factory
+
+- Issues von Github

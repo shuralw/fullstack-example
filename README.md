@@ -15,6 +15,7 @@ API
 - Deployment mittels Docker in n K8 Cluster auf GCP oder AWS
 - Serverless?
 - Rest, GraphQL, GRPC, EDA
+- Healthchecks
 
 Pagination
 - 

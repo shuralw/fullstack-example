@@ -16,6 +16,7 @@ API
 - Serverless?
 - Rest, GraphQL, GRPC, EDA
 - Healthchecks
+- Factories zum Erstellen von DTOs damit man Dependency Injection besitzt
 
 Pagination
 - 

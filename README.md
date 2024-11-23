@@ -1,11 +1,12 @@
-# Erste Definition of Done vom 23.11.2024
+# Definition of Done
+## Erste Definition of Done vom 23.11.2024
 - Feature-Branch wurde mittels Pull Request symbolisch auf dev gemerged via semi-linear Merge. 
 - dev und release sind noch nicht vonnöten.
 - Grundlegender kurzer Funktionstest erfolgte auf der Produktionsumgebung.
 
 Die folgenden Aspekte will ich in meinem Showcase perspektivisch umsetzen.
 
-API
+# Grobe API Anforderungen
 - Authentification with OAuth oder Bearer
 - Caching mit nem Redis
 - Python Backend für Statistiken
@@ -23,14 +24,14 @@ API
 - Rest, GraphQL, GRPC, EDA
 - Healthchecks
 - Factories zum Erstellen von DTOs damit man Dependency Injection besitzt
+- Pagination perspektivisch, entweder via graphql oder einer Code-Funktionalität
 
-Pagination
-- 
-
-Application Insights, alternativ Datadog oder so was, ggf. auch ELK Stack: Elasticsearch + Logstash + Kibana und ggf. Opentelemetry
+# Monitoring:
+- Application Insights, alternativ Datadog oder so was, ggf. auch ELK Stack: Elasticsearch + Logstash + Kibana und ggf. Opentelemetry
 
 
-Architektur:
+# Architektur:
 - Mappers, wenn man bspw. eine Bewerbung reingibt, will man die auch zu ner ChatNachricht konvertieren können fürs create / bzw. eine Factory
 
+# Projektorganisation
 - Issues von Github

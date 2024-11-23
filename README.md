@@ -4,6 +4,7 @@
 - dev und release sind noch nicht vonnöten.
 - Grundlegender kurzer Funktionstest erfolgte auf der Produktionsumgebung.
 
+* * * 
 Die folgenden Aspekte will ich in meinem Showcase perspektivisch umsetzen.
 
 # Grobe API Anforderungen

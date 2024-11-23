@@ -1,4 +1,10 @@
-# fullstack-example
+# Erste Definition of Done vom 23.11.2024
+- Feature-Branch wurde mittels Pull Request symbolisch auf dev gemerged via semi-linear Merge. 
+- dev und release sind noch nicht vonnöten.
+- Grundlegender kurzer Funktionstest erfolgte auf der Produktionsumgebung.
+
+Die folgenden Aspekte will ich in meinem Showcase perspektivisch umsetzen.
+
 API
 - Authentification with OAuth oder Bearer
 - Caching mit nem Redis
@@ -25,6 +31,6 @@ Application Insights, alternativ Datadog oder so was, ggf. auch ELK Stack: Elast
 
 
 Architektur:
-- Mappers, wenn man bspw. eine Bewerbung Bewerbung reingibt, will man die auch zu ner ChatNachricht konvertieren können fürs create / bzw. eine Factory
+- Mappers, wenn man bspw. eine Bewerbung reingibt, will man die auch zu ner ChatNachricht konvertieren können fürs create / bzw. eine Factory
 
 - Issues von Github

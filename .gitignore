@@ -1,0 +1,60 @@
+# Visual Studio spezifisch
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build-Output
+bin/
+obj/
+publish/
+out/
+
+# NuGet-Pakete
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Log- und Debug-Dateien
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+
+# Docker spezifisch
+**/[Dd]ockerfile.*
+**/docker-compose*
+.docker/
+docker-compose.override.yml
+
+# Rider / JetBrains spezifisch
+.idea/
+*.idea
+*.sln.iml
+
+# Web-spezifisch
+node_modules/
+dist/
+bower_components/
+wwwroot/
+
+# Umgebungs- und Konfigurationsdateien
+*.env
+*.config
+*.cfg
+*.settings
+
+# Betriebssystem spezifisch
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporäre Dateien
+*.tmp
+*.temp
+*.bak
+~$*
